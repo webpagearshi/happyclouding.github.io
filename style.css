@@ -1,0 +1,257 @@
+/*style navbar*/
+.nav-link{
+    width:100px;
+}
+.navbar-dark {
+    background-color:#A2B5CD;
+    color:white;
+
+}
+/*style gradient*/
+#grad1 {
+    height: 4000px;
+    background:#B2DFEE; /* For browsers that do not support gradients */
+    background: linear-gradient(to bottom right, #B2DFEE,#FFFFE0);
+    color:#8470FF; /* Standard syntax (must be last) */
+}
+/*beginning of pricing table*/
+* {
+    box-sizing: border-box;
+}
+
+
+.columns {
+    float: left;
+    width: 33.3%;
+    padding: 8px;
+}
+
+.price {
+    list-style-type: none;
+    border: 1px solid #eee;
+    margin: 0;
+    padding: 0;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+}
+
+.price:hover {
+    box-shadow: 0 8px 12px 0 rgba(0,0,0,0.2)
+}
+
+.price .header {
+    background-color: #111;
+    color: white;
+    font-size: 25px;
+}
+
+.price li {
+    border-bottom: 1px solid #eee;
+    padding: 20px;
+    text-align: center;
+}
+
+.price .grey {
+    background-color: #eee;
+    font-size: 20px;
+}
+
+.button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+@media only screen and (max-width: 600px) {
+    .columns {
+        width: 100%;
+    }
+}
+/*ending of pricing table*/
+body {
+  margin: 0;
+  font-family: Arial;
+}
+
+
+
+
+.header {
+ 
+  background: #555;
+  color: #f1f1f1;
+}
+
+
+
+.bg {
+    /* The image used */
+    background-image:url("clickhome.jpg");
+    opacity: 0.7;
+
+    /* Full height */
+    height: 800px;
+   padding: 0px;
+   margin:0px;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bg3 {
+    /* The image used */
+    background-image:url("success.jpg");
+    opacity: 0.7;
+
+    /* Full height */
+    height: 800px;
+   padding: 0px;
+   margin:0px;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#success{
+    font-size: 25px;
+    color: khaki;
+    font-family: Arial;
+}
+#text2{
+    font-size: 25px;
+    color: white;
+    font-family: Arial;
+}
+#home{
+    color: #53868B;
+    font-size:35px;
+}
+h1,p{
+     color: #53868B;
+}
+.content{
+    margin:0px;
+    padding: 0px;
+}
+.btn-primary{
+    background-color:#008B45;
+}
+.lead{
+    color:#00FF7F;
+}
+.dropdown-item{
+    color: #008B45;
+    font-family: Lucida Console;
+}
+.bg2 {
+    /* The image used */
+    background-image:url("pic2.jpg");
+    opacity: 0.8;
+
+    /* Full height */
+    height: 800px;
+   padding: 0px;
+   margin:0px;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#one{
+color:#000080;
+}
+#two{
+color:#000080;
+}
+#three{
+color:#000080;
+}
+* {
+    box-sizing: border-box;
+}
+
+
+
+/* Create three equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 30%;
+    padding: 10px;
+    margin: 10px;
+    height: 600px; 
+
+    opacity:0.7;/* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.lead2{
+    color:#4B0082 ;
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+/* Style the container/contact section */
+.container2 {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 10px;
+}
+
+/* Create two columns that float next to eachother */
+.column2 {
+    float: left;
+    width: 50%;
+    margin-top: 6px;
+    padding: 20px;
+}
+
+/* Clear floats after the columns */
+.row2:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media (max-width: 600px) {
+    .column2, input[type=submit] {
+        width: 100%;
+        margin-top: 0;
+    }
+}
+body {
+    margin: 0;
+
+}
+
